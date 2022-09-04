@@ -2,9 +2,9 @@ pipeline {
     agent  {  label "julio-jenkin" }
 
     stages {
-        stage('Hello') {
+        stage('Mon Monde A moi DIAM') {
             steps {
-                echo 'Hello World'
+                echo 'Hello World  pousser vous on arrive en speed '
             }
         }
     }
@@ -12,7 +12,7 @@ pipeline {
     {
         always
         {
-           mail bcc: '', body: 'tout ca pour ca jenkins', cc: '', from: '', replyTo: '', subject: 'tester mon email jenkins server setup', to: 'jeanphilippepersonaluse@gmail.com'
+           mail bcc: '', body: 'Encore toi pr ca pour ca jenkins', cc: '', from: '', replyTo: '', subject: 'OK OK mon email jenkins server setup', to: 'jeanphilippepersonaluse@gmail.com'
         }
         
     }
